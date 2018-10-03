@@ -1,5 +1,5 @@
 # AI-跑出來的結果
-
+```
 ksu@ksu:~$ python2 first_session_only_tensorflow.py
 python2: can't open file 'first_session_only_tensorflow.py': [Errno 2] No such file or directory
 ksu@ksu:~$ ls
@@ -232,4 +232,6 @@ Extracting MNIST_data/t10k-labels-idx1-ubyte.gz
 step 0, training accuracy 0.04
 step 100, training accuracy 0.74
 step 200, training accuracy 0.92
+
+```
 
