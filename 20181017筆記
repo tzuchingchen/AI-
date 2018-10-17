@@ -11,3 +11,20 @@ area = radius * radius * 3.1415962
 
 # Output(輸出):Display results
 print("The area for the circle of radius", radius, "is", area)
+
+
+#!/usr/bin/env python
+#coding=utf-8
+
+from PIL import Image, ImageFilter
+
+# 打開一個jpg影像檔，注意是在當前路徑:
+im = Image.open('/home/ksu/Pictures/cat.jpeg')
+
+# 應用模糊濾鏡filter():
+im2 = im.filter(ImageFilter.BLUR)
+
+# 將模糊濾鏡後的圖片存檔:
+im2.save('cat_blur.jpg', 'jpeg')
+
+成功產生模糊圖片
